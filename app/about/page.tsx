@@ -1,6 +1,6 @@
-function AboutPage() {
-  return (
-    <div>AboutPage</div>
-  )
+import db from "@/utils/db";
+
+async function AboutPage() {
+  return <div>AboutPage</div>;
 }
-export default AboutPage
+export default AboutPage;

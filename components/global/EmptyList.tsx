@@ -5,7 +5,7 @@ function EmptyList({
   className,
 }: {
   heading?: String;
-  className: String;
+  className?: String;
 }) {
   return <h2 className={cn("text-xl", className)}>{heading}</h2>;
 }
